@@ -16,8 +16,7 @@ Each stage has its dedicated pipeline registers:
 - `MEM/WB`
 
 ## Features
-- Implements a MIPS subset:  
-  `add`, `sub`, `and`, `or`, `slt`, `lw`, `sw`, `beq`, `bne`, `j`
+- Implements a MIPS subset, can be found in the `implemented_isa` file
 - 32 general-purpose registers (Register File)
 - Sign-extension for immediate values
 - ALU control logic for instruction-specific operations
