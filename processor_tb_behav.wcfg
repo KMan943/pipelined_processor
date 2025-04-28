@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="processor_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="processor_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="969.333 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,076.934 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/processor_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/IMem/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/RF/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/RF/write_reg" type="array">
+      <obj_property name="ElementShortName">write_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_reg[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/DMem/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/RF/regs" type="array">
+      <obj_property name="ElementShortName">regs[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/IFID/pc_reg" type="array">
+      <obj_property name="ElementShortName">pc_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/CU/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/IDEX/ex_ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ex_ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ex_ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ex_alu_in2" type="array">
+      <obj_property name="ElementShortName">ex_alu_in2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_alu_in2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ex_ALUCtl" type="array">
+      <obj_property name="ElementShortName">ex_ALUCtl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_ALUCtl[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ex_rd1" type="array">
+      <obj_property name="ElementShortName">ex_rd1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_rd1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ex_rd2" type="array">
+      <obj_property name="ElementShortName">ex_rd2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_rd2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/ALU/Result" type="array">
+      <obj_property name="ElementShortName">Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/IDEX/ex_rs" type="array">
+      <obj_property name="ElementShortName">ex_rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/IDEX/ex_rt" type="array">
+      <obj_property name="ElementShortName">ex_rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/IDEX/ex_rd" type="array">
+      <obj_property name="ElementShortName">ex_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/uut/DMem/RAM" type="array">
+      <obj_property name="ElementShortName">RAM[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[0:15][31:0]</obj_property>
+   </wvobject>
+</wave_config>
